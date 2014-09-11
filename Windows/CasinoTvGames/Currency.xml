@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Currencies>
+  <CurrencyList>
+    <Currency Id="GBP" Sign="£" DecimalSign="p" Name="British Pound"/>
+    <Currency Id="EUR" Sign="€" DecimalSign="c" Name="Euro"/>
+    <Currency Id="USD" Sign="$" DecimalSign="c" Name="US Dollar"/>
+  </CurrencyList>
+</Currencies>

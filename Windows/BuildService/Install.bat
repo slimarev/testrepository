@@ -1,0 +1,2 @@
+installutil BuildService.exe
+NET START CasinoTVBuildService

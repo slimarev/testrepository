@@ -1,0 +1,995 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Localization>
+  <Locales>
+    <Locale Id="en-US" Name="English" Title="English"/>
+    <Locale Id="it-IT" Name="Italian" Title="Italian"/>
+    <Locale Id="es-ES" Name="Spanish" Title="Spanish"/>
+  </Locales>
+  <Strings>
+    <String Id="ERROR_LOGIN_FAILED">
+      <English>Incorrect login or password.</English>
+      <Italian>Incorrect login or password.</Italian>
+      <Spanish>Incorrect login or password.</Spanish>
+    </String>
+    <String Id="ERROR_LOGIN_INCORRECT">
+      <English>Incorrect login or password.</English>
+      <Italian>Incorrect login or password.</Italian>
+      <Spanish>Incorrect login or password.</Spanish>
+    </String>
+    <String Id="REGISTRATION_RULES">
+      <English>By clicking Register you agree to {a:http://somewhere.com/terms Terms of Service} and that you have read our {a:http://somewhere.com/policy Privacy Policy}.</English>
+      <Italian>By clicking Register you agree to {a:http://somewhere.com/terms Terms of Service} and that you have read our {a:http://somewhere.com/policy Privacy Policy}.</Italian>
+      <Spanish>By clicking Register you agree to {a:http://somewhere.com/terms Terms of Service} and that you have read our {a:http://somewhere.com/policy Privacy Policy}.</Spanish>
+    </String>
+    <String Id="LOSS_REMINDER">
+      <English>At CasinoTV we take responsible gaming seriously. For your safety and security we would like to remind you that your bet / win during this session is currently #m_sign{0}/#m_sign{1}. Would you like to quit playing?</English>
+      <Italian>At CasinoTV we take responsible gaming seriously. For your safety and security we would like to remind you that your bet / win during this session is currently #m_sign{0}/#m_sign{1}. Would you like to quit playing?</Italian>
+      <Spanish>At CasinoTV we take responsible gaming seriously. For your safety and security we would like to remind you that your bet / win during this session is currently #m_sign{0}/#m_sign{1}. Would you like to quit playing?</Spanish>
+    </String>
+    <String Id="MIN_TABLE_LIMIT">
+      <English>This table has a table bet limit of #m_sign{0}.</English>
+      <Italian>This table has a table bet limit of #m_sign{0}.</Italian>
+      <Spanish>This table has a table bet limit of #m_sign{0}.</Spanish>
+    </String>
+    <String Id="BALANCE_NOT_SUFFICIENT">
+      <English>Your balance is not sufficient for this bet.</English>
+      <Italian>Your balance is not sufficient for this bet.</Italian>
+      <Spanish>Your balance is not sufficient for this bet.</Spanish>
+    </String>
+    <String Id="BET_AMOUNT_ADJUSTED">
+      <English>Your bet was adjusted to #m_sign{0}.</English>
+      <Italian>Your bet was adjusted to #m_sign{0}.</Italian>
+      <Spanish>Your bet was adjusted to #m_sign{0}.</Spanish>
+    </String>
+    <String Id="MAX_BET_LIMIT">
+      <English>Such bet cannot exceed #m_sign{0}.</English>
+      <Italian>Such bet cannot exceed #m_sign{0}."</Italian>
+      <Spanish>Such bet cannot exceed #m_sign{0}."</Spanish>
+    </String>
+    <String Id="TABLE_CLOSED">
+      <English>Table closed</English>
+      <Italian>Table closed</Italian>
+      <Spanish>Table closed</Spanish>
+    </String>
+    <String Id="TABLE_OPEN">
+      <English>Place your bets, please</English>
+      <Italian>Place your bets, please</Italian>
+      <Spanish>Place your bets, please</Spanish>
+    </String>
+    <String Id="FINAL_BETS">
+      <English>Final bets, please</English>
+      <Italian>Final bets, please</Italian>
+      <Spanish>Final bets, please</Spanish>
+    </String>
+    <String Id="OFFLINE">
+      <English>OFFLINE</English>
+      <Italian>OFFLINE</Italian>
+      <Spanish>OFFLINE</Spanish>
+    </String>
+    <String Id="LIVE">
+      <English>LIVE</English>
+      <Italian>LIVE</Italian>
+      <Spanish>LIVE</Spanish>
+    </String>
+    <String Id="VIRTUAL">
+      <English>VIRTUAL</English>
+      <Italian>VIRTUAL</Italian>
+      <Spanish>VIRTUAL</Spanish>
+    </String>
+    <String Id="CONFIGURATION">
+      <English>Configuration</English>
+      <Italian>Configuration</Italian>
+      <Spanish>Configuration</Spanish>
+    </String>
+    <String Id="FULLSCREEN">
+      <English>Fullscreen</English>
+      <Italian>Fullscreen</Italian>
+      <Spanish>Fullscreen</Spanish>
+    </String>
+    <String Id="LAYOUT">
+      <English>Layout</English>
+      <Italian>Layout</Italian>
+      <Spanish>Layout</Spanish>
+    </String>
+    <String Id="VIDEO_LAYOUT">
+      <English>Video layout</English>
+      <Italian>Video layout</Italian>
+      <Spanish>Video layout</Spanish>
+    </String>
+    <String Id="STANDARD">
+      <English>Standard</English>
+      <Italian>Standard</Italian>
+      <Spanish>Standard</Spanish>
+    </String>
+    <String Id="OVERLAY">
+      <English>Overlay (4:3)</English>
+      <Italian>Overlay (4:3)</Italian>
+      <Spanish>Overlay (4:3)</Spanish>
+    </String>
+    <String Id="SPLIT">
+      <English>Split (16:9)</English>
+      <Italian>Split (16:9)</Italian>
+      <Spanish>Split (16:9)</Spanish>
+    </String>
+    <String Id="HELP">
+      <English>Help</English>
+      <Italian>Help</Italian>
+      <Spanish>Help</Spanish>
+    </String>
+    <String Id="SUPPORT_VIDEO">
+      <English>Help videos</English>
+      <Italian>Help videos</Italian>
+      <Spanish>Help videos</Spanish>
+    </String>
+    <String Id="SUPPORT_CHAT">
+      <English>Support chat</English>
+      <Italian>Support chat</Italian>
+      <Spanish>Support chat</Spanish>
+    </String>
+    <String Id="CASINOTV_WEBSITE">
+      <English>CasinoTV web-site</English>
+      <Italian>CasinoTV web-site</Italian>
+      <Spanish>CasinoTV web-site</Spanish>
+    </String>
+    <String Id="OPEN_LOGS">
+      <English>Browse logs</English>
+      <Italian>Browse logs</Italian>
+      <Spanish>Browse logs</Spanish>
+    </String>
+    <String Id="BACK">
+      <English>Back</English>
+      <Italian>Back</Italian>
+      <Spanish>Back</Spanish>
+    </String>
+    <String Id="EXIT">
+      <English>Exit</English>
+      <Italian>Exit</Italian>
+      <Spanish>Exit</Spanish>
+    </String>
+    <String Id="LOGOUT">
+      <English>Logout</English>
+      <Italian>Logout</Italian>
+      <Spanish>Logout</Spanish>
+    </String>
+    <String Id="MEMBER_LOGIN">
+      <English>Member login</English>
+      <Italian>Member login</Italian>
+      <Spanish>Member login</Spanish>
+    </String>
+    <String Id="REMEMBER_ME">
+      <English>Remember me</English>
+      <Italian>Remember me</Italian>
+      <Spanish>Remember me</Spanish>
+    </String>
+    <String Id="CONNECT_AUTOMATICALLY">
+      <English>Connect automatically</English>
+      <Italian>Connect automatically</Italian>
+      <Spanish>Connect automatically</Spanish>
+    </String>
+    <String Id="LOGIN">
+      <English>Login</English>
+      <Italian>Login</Italian>
+      <Spanish>Login</Spanish>
+    </String>
+    <String Id="PASSWORD_RECOVERY">
+      <English>Password recovery</English>
+      <Italian>Password recovery</Italian>
+      <Spanish>Password recovery</Spanish>
+    </String>
+    <String Id="NOT_A_MEMBER">
+      <English>Not a member?</English>
+      <Italian>Not a member?</Italian>
+      <Spanish>Not a member?</Spanish>
+    </String>
+    <String Id="REGISTER">
+      <English>Register</English>
+      <Italian>Register</Italian>
+      <Spanish>Register</Spanish>
+    </String>
+    <String Id="#M_SIGN{0}">
+      <English>#m_sign{0}</English>
+      <Italian>#m_sign{0}</Italian>
+      <Spanish>#m_sign{0}</Spanish>
+    </String>
+    <String Id="PLAY_ROULETTE">
+      <English>Play roulette</English>
+      <Italian>Play roulette</Italian>
+      <Spanish>Play roulette</Spanish>
+    </String>
+    <String Id="RULES">
+      <English>Rules</English>
+      <Italian>Rules</Italian>
+      <Spanish>Rules</Spanish>
+    </String>
+    <String Id="CASHIER">
+      <English>Cashier</English>
+      <Italian>Cashier</Italian>
+      <Spanish>Cashier</Spanish>
+    </String>
+    <String Id="PREFERENCES">
+      <English>Preferences</English>
+      <Italian>Preferences</Italian>
+      <Spanish>Preferences</Spanish>
+    </String>
+    <String Id="MORE">
+      <English>More</English>
+      <Italian>More</Italian>
+      <Spanish>More</Spanish>
+    </String>
+    <String Id="TABLE_{0}">
+      <English>Table {0}</English>
+      <Italian>Table {0}</Italian>
+      <Spanish>Table {0}</Spanish>
+    </String>
+    <String Id="MENU">
+      <English>Menu</English>
+      <Italian>Menu</Italian>
+      <Spanish>Menu</Spanish>
+    </String>
+    <String Id="SUPPORT">
+      <English>Support</English>
+      <Italian>Support</Italian>
+      <Spanish>Support</Spanish>
+    </String>
+    <String Id="BALANCE">
+      <English>Balance</English>
+      <Italian>Balance</Italian>
+      <Spanish>Balance</Spanish>
+    </String>
+    <String Id="BET">
+      <English>Bet</English>
+      <Italian>Bet</Italian>
+      <Spanish>Bet</Spanish>
+    </String>
+    <String Id="BUY_IN">
+      <English>Buy in</English>
+      <Italian>Buy in</Italian>
+      <Spanish>Buy in</Spanish>
+    </String>
+    <String Id="REMOVE_BET">
+      <English>Remove bet</English>
+      <Italian>Remove bet</Italian>
+      <Spanish>Remove bet</Spanish>
+    </String>
+    <String Id="CLEAR_BETS">
+      <English>Clear bet</English>
+      <Italian>Clear bet</Italian>
+      <Spanish>Clear bet</Spanish>
+    </String>
+    <String Id="REPEAT">
+      <English>Repeat</English>
+      <Italian>Repeat</Italian>
+      <Spanish>Repeat</Spanish>
+    </String>
+    <String Id="SUBMIT">
+      <English>Submit</English>
+      <Italian>Submit</Italian>
+      <Spanish>Submit</Spanish>
+    </String>
+    <String Id="TIPS">
+      <English>Tips</English>
+      <Italian>Tips</Italian>
+      <Spanish>Tips</Spanish>
+    </String>
+    <String Id="TIPS_TITLE">
+      <English>Donate tips</English>
+      <Italian>Donate tips</Italian>
+      <Spanish>Donate tips</Spanish>
+    </String>
+    <String Id="AVAILABLE_BALANCE">
+      <English>Available amount</English>
+      <Italian>Available amount</Italian>
+      <Spanish>Available amount</Spanish>
+    </String>
+    <String Id="AMOUNT_TO_DONATE">
+      <English>Amount to donate</English>
+      <Italian>Amount to donate</Italian>
+      <Spanish>Amount to donate</Spanish>
+    </String>
+    <String Id="ENTER_TIPS_AMOUNT">
+      <English>Enter tips amount</English>
+      <Italian>Enter tips amount</Italian>
+      <Spanish>Enter tips amount</Spanish>
+    </String>
+    <String Id="OK">
+      <English>OK</English>
+      <Italian>OK</Italian>
+      <Spanish>OK</Spanish>
+    </String>
+    <String Id="CANCEL">
+      <English>CANCEL</English>
+      <Italian>CANCEL</Italian>
+      <Spanish>CANCEL</Spanish>
+    </String>
+    <String Id="VIDEO">
+      <English>VIDEO</English>
+      <Italian>VIDEO</Italian>
+      <Spanish>VIDEO</Spanish>
+    </String>
+    <String Id="VIDEO_MODE">
+      <English>Video mode</English>
+      <Italian>Video mode</Italian>
+      <Spanish>Video mode</Spanish>
+    </String>
+    <String Id="LIVE_VIDEO_DESCRIPTION">
+      <English>Live video stream requires more bandwidth. It is recommended to use virtual on mobile networks.</English>
+      <Italian>Live video stream requires more bandwidth. It is recommended to use virtual on mobile networks.</Italian>
+      <Spanish>Live video stream requires more bandwidth. It is recommended to use virtual on mobile networks.</Spanish>
+    </String>
+    <String Id="SEPARATE_VIDEO">
+      <English>Separate video</English>
+      <Italian>Separate video</Italian>
+      <Spanish>Separate video</Spanish>
+    </String>
+    <String Id="SOUND_VOLUME">
+      <English>Sound volume</English>
+      <Italian>Sound volume</Italian>
+      <Spanish>Sound volume</Spanish>
+    </String>
+    <String Id="SOUND_EFFECTS">
+      <English>Sound effects</English>
+      <Italian>Sound effects</Italian>
+      <Spanish>Sound effects</Spanish>
+    </String>
+    <String Id="LANGUAGE">
+      <English>Language</English>
+      <Italian>Language</Italian>
+      <Spanish>Language</Spanish>
+    </String>
+    <String Id="LOSS_REMIND_DELAY">
+      <English>Loss remind delay</English>
+      <Italian>Loss remind delay</Italian>
+      <Spanish>Loss remind delay</Spanish>
+    </String>
+    <String Id="ON">
+      <English>ON</English>
+      <Italian>ON</Italian>
+      <Spanish>ON</Spanish>
+    </String>
+    <String Id="OFF">
+      <English>OFF</English>
+      <Italian>OFF</Italian>
+      <Spanish>OFF</Spanish>
+    </String>
+    <String Id="LIVE_VIDEO">
+      <English>Live video</English>
+      <Italian>Live video</Italian>
+      <Spanish>Live video</Spanish>
+    </String>
+    <String Id="PRERECORDED_VIDEO">
+      <English>Pre-recorded video</English>
+      <Italian>Pre-recorded video</Italian>
+      <Spanish>Pre-recorded video</Spanish>
+    </String>
+    <String Id="DISABLED">
+      <English>Disabled</English>
+      <Italian>Disabled</Italian>
+      <Spanish>Disabled</Spanish>
+    </String>
+    <String Id="SEPARATE_SCREEN">
+      <English>Separate screen</English>
+      <Italian>Separate screen</Italian>
+      <Spanish>Separate screen</Spanish>
+    </String>
+    <String Id="SAME_SCREEN">
+      <English>Same screen</English>
+      <Italian>Same screen</Italian>
+      <Spanish>Same screen</Spanish>
+    </String>
+    <String Id="PROMOTIONS">
+      <English>Promotions</English>
+      <Italian>Promotions</Italian>
+      <Spanish>Promotions</Spanish>
+    </String>
+    <String Id="CHANNEL_63">
+      <English>Channel 63</English>
+      <Italian>Channel 63</Italian>
+      <Spanish>Channel 63</Spanish>
+    </String>
+    <String Id="VIP_CLUB">
+      <English>VIP club</English>
+      <Italian>VIP club</Italian>
+      <Spanish>VIP club</Spanish>
+    </String>
+    <String Id="CONTACT">
+      <English>Contact</English>
+      <Italian>Contact</Italian>
+      <Spanish>Contact</Spanish>
+    </String>
+    <String Id="TERMS">
+      <English>Terms</English>
+      <Italian>Terms</Italian>
+      <Spanish>Terms</Spanish>
+    </String>
+    <String Id="EURO">
+      <English>Euro</English>
+      <Italian>Euro</Italian>
+      <Spanish>Euro</Spanish>
+    </String>
+    <String Id="US DOLLAR">
+      <English>US Dollar</English>
+      <Italian>US Dollar</Italian>
+      <Spanish>US Dollar</Spanish>
+    </String>
+    <String Id="REGISTRATION">
+      <English>Registration</English>
+      <Italian>Registration</Italian>
+      <Spanish>Registration</Spanish>
+    </String>
+    <String Id="USERNAME">
+      <English>Username</English>
+      <Italian>Username</Italian>
+      <Spanish>Username</Spanish>
+    </String>
+    <String Id="PASSWORD">
+      <English>Password</English>
+      <Italian>Password</Italian>
+      <Spanish>Password</Spanish>
+    </String>
+    <String Id="CONFIRM_PASSWORD">
+      <English>Confirm password</English>
+      <Italian>Confirm password</Italian>
+      <Spanish>Confirm password</Spanish>
+    </String>
+    <String Id="FIRSTNAME">
+      <English>Firstname</English>
+      <Italian>Firstname</Italian>
+      <Spanish>Firstname</Spanish>
+    </String>
+    <String Id="LASTNAME">
+      <English>Lastname</English>
+      <Italian>Lastname</Italian>
+      <Spanish>Lastname</Spanish>
+    </String>
+    <String Id="NAME_REGISTRATION_NOTICE">
+      <English>Card transactions, cheques and bank wire can only be processed if the name matches that of the account holder.</English>
+      <Italian>Card transactions, cheques and bank wire can only be processed if the name matches that of the account holder.</Italian>
+      <Spanish>Card transactions, cheques and bank wire can only be processed if the name matches that of the account holder.</Spanish>
+    </String>
+    <String Id="BIRTH_DATE">
+      <English>Birthdate</English>
+      <Italian>Birthdate</Italian>
+      <Spanish>Birthdate</Spanish>
+    </String>
+    <String Id="EMAIL">
+      <English>E-Mail</English>
+      <Italian>E-Mail</Italian>
+      <Spanish>E-Mail</Spanish>
+    </String>
+    <String Id="MOBILE_NUMBER">
+      <English>Mobile number</English>
+      <Italian>Mobile number</Italian>
+      <Spanish>Mobile number</Spanish>
+    </String>
+    <String Id="ADDRESS">
+      <English>Address</English>
+      <Italian>Address</Italian>
+      <Spanish>Address</Spanish>
+    </String>
+    <String Id="CITY">
+      <English>City</English>
+      <Italian>City</Italian>
+      <Spanish>City</Spanish>
+    </String>
+    <String Id="ZIP">
+      <English>ZIP</English>
+      <Italian>ZIP</Italian>
+      <Spanish>ZIP</Spanish>
+    </String>
+    <String Id="COUNTRY">
+      <English>Country</English>
+      <Italian>Country</Italian>
+      <Spanish>Country</Spanish>
+    </String>
+    <String Id="BETTING_CURRENCY">
+      <English>Betting currency</English>
+      <Italian>Betting currency</Italian>
+      <Spanish>Betting currency</Spanish>
+    </String>
+    <String Id="PASSWORD_NOT_MATCHING">
+      <English>Password not matching confirmation</English>
+      <Italian>Password not matching confirmation</Italian>
+      <Spanish>Password not matching confirmation</Spanish>
+    </String>
+    <String Id="SERVER_TIME">
+      <English>Server time</English>
+      <Italian>Server time</Italian>
+      <Spanish>Server time</Spanish>
+    </String>
+    <String Id="ROUND_ID">
+      <English>Round ID</English>
+      <Italian>Round ID</Italian>
+      <Spanish>Round ID</Spanish>
+    </String>
+    <String Id="FLASH_GAMES">
+      <English>Slot games</English>
+      <Italian>Slot games</Italian>
+      <Spanish>Slot games</Spanish>
+    </String>
+    <String Id="DETACHED_VIDEO">
+      <English>Detached video</English>
+      <Italian>Detached video</Italian>
+      <Spanish>Detached video</Spanish>
+    </String>
+    <String Id="BALANCE_AMOUNT">
+      <English>Balance: {0}</English>
+      <Italian>Balance: {0}</Italian>
+      <Spanish>Balance: {0}</Spanish>
+    </String>
+    <String Id="VIEW_YOUR_BALANCE">
+      <English>View Your balance</English>
+      <Italian>View Your balance</Italian>
+      <Spanish>View Your balance</Spanish>
+    </String>
+    <String Id="MAKE_A_DEPOSIT">
+      <English>Make a deposit</English>
+      <Italian>Make a deposit</Italian>
+      <Spanish>Make a deposit</Spanish>
+    </String>
+    <String Id="MAKE_A_WITHDRAWAL">
+      <English>Make a withdrawal</English>
+      <Italian>Make a withdrawal</Italian>
+      <Spanish>Make a withdrawal</Spanish>
+    </String>
+    <String Id="BANK_DETAILS">
+      <English>Add bank details</English>
+      <Italian>Add bank details</Italian>
+      <Spanish>Add bank details</Spanish>
+    </String>
+    <String Id="PROFILE">
+      <English>Profile</English>
+      <Italian>Profile</Italian>
+      <Spanish>Profile</Spanish>
+    </String>
+    <String Id="MY_PROFILE">
+      <English>My Profile</English>
+      <Italian>My Profile</Italian>
+      <Spanish>My Profile</Spanish>
+    </String>
+    <String Id="RESET_PASSWORD">
+      <English>Password reset</English>
+      <Italian>Password reset</Italian>
+      <Spanish>Password reset</Spanish>
+    </String>
+    <String Id="VIEW">
+      <English>View</English>
+      <Italian>View</Italian>
+      <Spanish>View</Spanish>
+    </String>
+    <String Id="LOCK_ASPECT_RATIO">
+      <English>Lock aspect ratio</English>
+      <Italian>Lock aspect ratio</Italian>
+      <Spanish>Lock aspect ratio</Spanish>
+    </String>
+    <String Id="ADVANCED">
+      <English>Advanced</English>
+      <Italian>Advanced</Italian>
+      <Spanish>Advanced</Spanish>
+    </String>
+    <String Id="HIDE_CURSOR_WHEN_FULLSCREEN">
+      <English>Hide cursor when full screen</English>
+      <Italian>Hide cursor when full screen</Italian>
+      <Spanish>Hide cursor when full screen</Spanish>
+    </String>
+    <String Id="HIDE_DOLLY">
+      <English>Hide dolly</English>
+      <Italian>Hide dolly</Italian>
+      <Spanish>Hide dolly</Spanish>
+    </String>
+    <String Id="REPORTS">
+      <English>History</English>
+      <Italian>History</Italian>
+      <Spanish>History</Spanish>
+    </String>
+    <String Id="TRANSACTION_HISTORY">
+      <English>Transaction history</English>
+      <Italian>Transaction history</Italian>
+      <Spanish>Transaction history</Spanish>
+    </String>
+    <String Id="DEPOSIT_HISTORY">
+      <English>Deposit history</English>
+      <Italian>Deposit history</Italian>
+      <Spanish>Deposit history</Spanish>
+    </String>
+    <String Id="WITHDRAWAL_HISTORY">
+      <English>Withdrawal history</English>
+      <Italian>Withdrawal history</Italian>
+      <Spanish>Withdrawal history</Spanish>
+    </String>
+    <String Id="HELP_CENTER">
+      <English>Help center</English>
+      <Italian>Help center</Italian>
+      <Spanish>Help center</Spanish>
+    </String>
+    <String Id="PLAY_TABLE_GAMES">
+      <English>Play table games</English>
+      <Italian>Play table games</Italian>
+      <Spanish>Play table games</Spanish>
+    </String>
+    <String Id="CASINOTV">
+      <English>CasinoTV</English>
+      <Italian>CasinoTV</Italian>
+      <Spanish>CasinoTV</Spanish>
+    </String>
+    <String Id="CROUPIERS">
+      <English>Croupiers</English>
+      <Italian>Croupiers</Italian>
+      <Spanish>Croupiers</Spanish>
+    </String>
+    <String Id="BUYIN_TITLE">
+      <English>Buy In</English>
+      <Italian>Buy In</Italian>
+      <Spanish>Buy In</Spanish>
+    </String>
+    <String Id="CURRENT_GAME_BALANCE">
+      <English>Current game balance</English>
+      <Italian>Current game balance</Italian>
+      <Spanish>Current game balance</Spanish>
+    </String>
+    <String Id="AMOUNT_TO_BUY_IN">
+      <English>Amount to buy in</English>
+      <Italian>Amount to buy in</Italian>
+      <Spanish>Amount to buy in</Spanish>
+    </String>
+    <String Id="ENTER_BUYIN_AMOUNT">
+      <English>Enter buy in amount</English>
+      <Italian>Enter buy in amount</Italian>
+      <Spanish>Enter buy in amount</Spanish>
+    </String>
+    <String Id="CLICK_TO_HIDE">
+      <English>Click to Hide</English>
+      <Italian>Click to Hide</Italian>
+      <Spanish>Click to Hide</Spanish>
+    </String>
+    <String Id="MOBILE">
+      <English>Mobile</English>
+      <Italian>Mobile</Italian>
+      <Spanish>Mobile</Spanish>
+    </String>
+    <String Id="MAILBOX">
+      <English>Mailbox</English>
+      <Italian>Mailbox</Italian>
+      <Spanish>Mailbox</Spanish>
+    </String>
+    <String Id="INBOX_MESSAGES">
+      <English>Inbox</English>
+      <Italian>Inbox</Italian>
+      <Spanish>Inbox</Spanish>
+    </String>
+    <String Id="SENT_MESSAGES">
+      <English>Sent messages</English>
+      <Italian>Sent messages</Italian>
+      <Spanish>Sent messages</Spanish>
+    </String>
+    <String Id="NEW_MESSAGE">
+      <English>New message</English>
+      <Italian>New message</Italian>
+      <Spanish>New message</Spanish>
+    </String>
+    <String Id="SERVICE_ERROR">
+      <English>Service error.</English>
+      <Italian>Service error.</Italian>
+      <Spanish>Service error.</Spanish>
+    </String>
+    <String Id="UTENTE_LOGIN_CHANGE_DISPOSABLE_PASSWORD">
+      <English>Change password after login.</English>
+      <Italian>Change password after login.</Italian>
+      <Spanish>Change password after login.</Spanish>
+    </String>
+    <String Id="UTENTE_LOGIN_CLOSED">
+      <English>Login is closed.</English>
+      <Italian>Login is closed.</Italian>
+      <Spanish>Login is closed.</Spanish>
+    </String>
+    <String Id="UTENTE_LOGIN_LOCKED">
+      <English>Login is locked.</English>
+      <Italian>Login is locked.</Italian>
+      <Spanish>Login is locked.</Spanish>
+    </String>
+    <String Id="UTENTE_LOGIN_SET_SECRET_QUESTION">
+      <English>You need to set secret question.</English>
+      <Italian>You need to set secret question.</Italian>
+      <Spanish>You need to set secret question.</Spanish>
+    </String>
+    <String Id="UTENTE_LOGIN_FAILED">
+      <English>Login failed.</English>
+      <Italian>Login failed.</Italian>
+      <Spanish>Login failed.</Spanish>
+    </String>
+    <String Id="UTENTE_LOGIN_FAILED_CAUSE_BAD_DOMAIN">
+      <English>Incorrect domain.</English>
+      <Italian>Incorrect domain.</Italian>
+      <Spanish>Incorrect domain.</Spanish>
+    </String>
+    <String Id="UTENTE_LOGIN_FAILED_CAUSE_PRECONDITION_ERROR">
+      <English>General login failed.</English>
+      <Italian>General login failed.</Italian>
+      <Spanish>General login failed.</Spanish>
+    </String>
+    <String Id="UTENTE_LOGIN_REQUIRED_NEW_DYNAMIC_PASSWORD">
+      <English>New dynamic passowrd required.</English>
+      <Italian>New dynamic passowrd required.</Italian>
+      <Spanish>New dynamic passowrd required.</Spanish>
+    </String>
+    <String Id="UTENTE_LOGIN_INSERT_DYNAMIC_PASSWORD">
+      <English>Insert dynamic password.</English>
+      <Italian>Insert dynamic password.</Italian>
+      <Spanish>Insert dynamic password.</Spanish>
+    </String>
+    <String Id="UTENTE_LOGIN_EXPIRED_DYNAMIC_PASSWORD">
+      <English>Dynamic password expired.</English>
+      <Italian>Dynamic password expired.</Italian>
+      <Spanish>Dynamic password expired.</Spanish>
+    </String>
+    <String Id="UTENTE_LOGIN_CHANGE_SAME_DISPOSABLE_PASSWORD">
+      <English>Use other temporary password.</English>
+      <Italian>Use other temporary password.</Italian>
+      <Spanish>Use other temporary password.</Spanish>
+    </String>
+    <String Id="TYPE_BET_REFUSED_CLOSED">
+      <English>Table is alread closed.</English>
+      <Italian>Table is alread closed.</Italian>
+      <Spanish>Table is alread closed.</Spanish>
+    </String>
+    <String Id="TYPE_BET_REFUSED_CANCELED">
+      <English>Bet cancelled.</English>
+      <Italian>Bet cancelled.</Italian>
+      <Spanish>Bet cancelled.</Spanish>
+    </String>
+    <String Id="NULL_GAME">
+      <English>Game is not selected.</English>
+      <Italian>Game is not selected.</Italian>
+      <Spanish>Game is not selected.</Spanish>
+    </String>
+    <String Id="CANCELED_GAME">
+      <English>Game is cancelled.</English>
+      <Italian>Game is cancelled.</Italian>
+      <Spanish>Game is cancelled.</Spanish>
+    </String>
+    <String Id="INTERNAL_ERROR">
+      <English>Internal error.</English>
+      <Italian>Internal error.</Italian>
+      <Spanish>Internal error.</Spanish>
+    </String>
+    <String Id="AMOUNT_NOT_AVALAIBLE">
+      <English>Amount not available.</English>
+      <Italian>Amount not available.</Italian>
+      <Spanish>Amount not available.</Spanish>
+    </String>
+    <String Id="UNSUPPORTED_OPERATION">
+      <English>Operation not supported.</English>
+      <Italian>Operation not supported.</Italian>
+      <Spanish>Operation not supported.</Spanish>
+    </String>
+    <String Id="OPENED_TABLE">
+      <English>Table is opened.</English>
+      <Italian>Table is opened.</Italian>
+      <Spanish>Table is opened.</Spanish>
+    </String>
+    <String Id="CLOSED_TABLE">
+      <English>Table is closed.</English>
+      <Italian>Table is closed.</Italian>
+      <Spanish>Table is closed.</Spanish>
+    </String>
+    <String Id="GAME_PLAYER_ALREADY_PRESENT">
+      <English>Player already present.</English>
+      <Italian>Player already present.</Italian>
+      <Spanish>Player already present.</Spanish>
+    </String>
+    <String Id="BASIC_REQUEST_CONSTRAINTS_VIOLATED">
+      <English>General error.</English>
+      <Italian>General error.</Italian>
+      <Spanish>General error.</Spanish>
+    </String>
+    <String Id="ERROR_REGISTER">
+      <English>Registration error.</English>
+      <Italian>Registration error.</Italian>
+      <Spanish>Registration error.</Spanish>
+    </String>
+    <String Id="NO_OPERATOR">
+      <English>Operator not available.</English>
+      <Italian>Operator not available.</Italian>
+      <Spanish>Operator not available.</Spanish>
+    </String>
+    <String Id="CHAT_OFFLINE">
+      <English>Chat is not available.</English>
+      <Italian>Chat is not available.</Italian>
+      <Spanish>Chat is not available.</Spanish>
+    </String>
+    <String Id="NO_SUCH_GAME_FOUND">
+      <English>No such game found.</English>
+      <Italian>No such game found.</Italian>
+      <Spanish>No such game found.</Spanish>
+    </String>
+    <String Id="NOT_LOGGED_IN">
+      <English>You need to login first.</English>
+      <Italian>You need to login first.</Italian>
+      <Spanish>You need to login first.</Spanish>
+    </String>
+    <String Id="NETWORK_TIMEOUT">
+      <English>Network error.</English>
+      <Italian>Network error.</Italian>
+      <Spanish>Network error.</Spanish>
+    </String>
+    <String Id="ERROR_LOGIN_FAILED">
+      <English>Login failed.</English>
+      <Italian>Login failed.</Italian>
+      <Spanish>Login failed.</Spanish>
+    </String>
+    <String Id="ERROR_SESSION_EXPIRED">
+      <English>Session expired.</English>
+      <Italian>Session expired.</Italian>
+      <Spanish>Session expired.</Spanish>
+    </String>
+    <String Id="ERROR_PREVIOUS_BET_IN_PROGRESS">
+      <English>Previous bet in progress.</English>
+      <Italian>Previous bet in progress.</Italian>
+      <Spanish>Previous bet in progress.</Spanish>
+    </String>
+    <String Id="ERROR_BETTING_LIMITS_VIOLATION">
+      <English>Bet limits violated.</English>
+      <Italian>Bet limits violated.</Italian>
+      <Spanish>Bet limits violated.</Spanish>
+    </String>
+    <String Id="ERROR_MAX_WAGER_LIMIT">
+      <English>Max table limit violated.</English>
+      <Italian>Max table limit violated.</Italian>
+      <Spanish>Max table limit violated.</Spanish>
+    </String>
+    <String Id="ERROR_MIN_WAGER_LIMIT">
+      <English>Min table limit violated.</English>
+      <Italian>Min table limit violated.</Italian>
+      <Spanish>Min table limit violated.</Spanish>
+    </String>
+    <String Id="ERROR_TABLE_CLOSED">
+      <English>Table is closed.</English>
+      <Italian>Table is closed.</Italian>
+      <Spanish>Table is closed.</Spanish>
+    </String>
+    <String Id="ERROR_INSUFFICIENT_FUNDS">
+      <English>Not enough funds.</English>
+      <Italian>Not enough funds.</Italian>
+      <Spanish>Not enough funds.</Spanish>
+    </String>
+    <String Id="ERROR_JOIN_GAME_FAILED">
+      <English>Game is not available.</English>
+      <Italian>Game is not available.</Italian>
+      <Spanish>Game is not available.</Spanish>
+    </String>
+    <String Id="ERROR_GAME_NOT_JOINED">
+      <English>You need to join the game first.</English>
+      <Italian>You need to join the game first.</Italian>
+      <Spanish>You need to join the game first.</Spanish>
+    </String>
+    <String Id="ERROR_MALFORMED_PARAM">
+      <English>General error.</English>
+      <Italian>General error.</Italian>
+      <Spanish>General error.</Spanish>
+    </String>
+    <String Id="ERROR_INPUT_ERROR">
+      <English>Data error.</English>
+      <Italian>Data error.</Italian>
+      <Spanish>Data error.</Spanish>
+    </String>
+    <String Id="ERROR_USER_ALREADY_EXISTS">
+      <English>Such user already exists.</English>
+      <Italian>Such user already exists.</Italian>
+      <Spanish>Such user already exists.</Spanish>
+    </String>
+    <String Id="ERROR_SYSTEM_UNAVAILABLE">
+      <English>System unavailable.</English>
+      <Italian>System unavailable.</Italian>
+      <Spanish>System unavailable.</Spanish>
+    </String>
+    <String Id="ERROR_NO_GAME_RUNNING">
+      <English>This game is not running at the moment.</English>
+      <Italian>This game is not running at the moment.</Italian>
+      <Spanish>This game is not running at the moment.</Spanish>
+    </String>
+    <String Id="ERROR_CLIENT_ID">
+      <English>Client ID incorrect.</English>
+      <Italian>Client ID incorrect.</Italian>
+      <Spanish>Client ID incorrect.</Spanish>
+    </String>
+    <String Id="ERROR_CLIENT_AUTH">
+      <English>Client key incorrect.</English>
+      <Italian>Client key incorrect.</Italian>
+      <Spanish>Client key incorrect.</Spanish>
+    </String>
+    <String Id="ERROR_CALL_NOT_FOUND">
+      <English>Unknown RPC call.</English>
+      <Italian>Unknown RPC call.</Italian>
+      <Spanish>Unknown RPC call.</Spanish>
+    </String>
+    <String Id="ERROR_SYSTEM_ERROR">
+      <English>System error.</English>
+      <Italian>System error.</Italian>
+      <Spanish>System error.</Spanish>
+    </String>
+    <String Id="ERROR_UNKNOWN">
+      <English>Generic system error.</English>
+      <Italian>Generic system error.</Italian>
+      <Spanish>Generic system error.</Spanish>
+    </String>
+    <String Id="ERROR_NO_INTERNET_ACCESS">
+      <English>Network error.</English>
+      <Italian>Network error.</Italian>
+      <Spanish>Network error.</Spanish>
+    </String>
+    <String Id="BETS_ACCEPTED">
+      <English>Bet accepted.</English>
+      <Italian>Bet accepted.</Italian>
+      <Spanish>Bet accepted.</Spanish>      
+    </String>
+    <String Id="ACCEPT_FUN_FUNDS">
+      <English>You have #m_sign{0} as a fun bonus balance, which you can use. Please note, that win from fun funds can't be converted into real money. Do you want to play for fun funds?</English>
+      <Italian>You have #m_sign{0} as a fun bonus balance, which you can use. Please note, that win from fun funds can't be converted into real money. Do you want to play for fun funds?</Italian>
+      <Spanish>You have #m_sign{0} as a fun bonus balance, which you can use. Please note, that win from fun funds can't be converted into real money. Do you want to play for fun funds?</Spanish>
+    </String>
+    <String Id="LIMIT_NOT_SELECTED">
+      <English>Select the limit to apply.</English>
+      <Italian>Select the limit to apply.</Italian>
+      <Spanish>Select the limit to apply.</Spanish>
+    </String>
+    <String Id="AMOUNT_ZERO">
+      <English>Amount cannot be less or equal to 0.</English>
+      <Italian>Amount cannot be less or equal to 0.</Italian>
+      <Spanish>Amount cannot be less or equal to 0.</Spanish>
+    </String>
+    <String Id="THANK_YOU">
+      <English>Thank you.</English>
+      <Italian>Thank you.</Italian>
+      <Spanish>Thank you.</Spanish>
+    </String>
+    <String Id="ROULETTE_FIFTY_FIFTY">
+      <English>50/50</English>
+      <Italian>50/50</Italian>
+      <Spanish>50/50</Spanish>
+    </String>
+    <String Id="ROULETTE_COLUMN_DOZEN">
+      <English>Column/Dozen</English>
+      <Italian>Column/Dozen</Italian>
+      <Spanish>Column/Dozen</Spanish>
+    </String>
+    <String Id="ROULETTE_STRAIGHT">
+      <English>Straight</English>
+      <Italian>Straight</Italian>
+      <Spanish>Straight</Spanish>
+    </String>
+    <String Id="ROULETTE_TABLE">
+      <English>Table</English>
+      <Italian>Table</Italian>
+      <Spanish>Table</Spanish>
+    </String>
+    <String Id="ROULETTE_SPLIT">
+      <English>Split</English>
+      <Italian>Split</Italian>
+      <Spanish>Split</Spanish>
+    </String>
+    <String Id="ROULETTE_STREET">
+      <English>Street</English>
+      <Italian>Street</Italian>
+      <Spanish>Street</Spanish>
+    </String>
+    <String Id="ROULETTE_CORNER">
+      <English>Corner</English>
+      <Italian>Corner</Italian>
+      <Spanish>Corner</Spanish>
+    </String>
+    <String Id="ROULETTE_LINE">
+      <English>Line</English>
+      <Italian>Line</Italian>
+      <Spanish>Line</Spanish>
+    </String>
+    <String Id="SELECT_LIMIT">
+      <English>Choose your limit</English>
+      <Italian>Choose your limit</Italian>
+      <Spanish>Choose your limit</Spanish>      
+    </String>
+    <String Id="LIMITS_TITLE">
+      <English>Limits selection</English>
+      <Italian>Limits selection</Italian>
+      <Spanish>Limits selection</Spanish>
+    </String>
+  </Strings>
+</Localization>

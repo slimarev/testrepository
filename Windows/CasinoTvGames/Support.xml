@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Support>
+  <Buttons>
+    <Button Type="SupportChat"/>
+    <Button Type="Vimeo">http://player.vimeo.com/external/20789016.sd.mp4?s=d1adbf58d5832e9bbb488b48cc869424</Button>
+    <Button Type="Vimeo">http://player.vimeo.com/external/20788613.sd.mp4?s=6a55cad75cb0da136adab2182636fed7</Button>
+    <Button Type="Vimeo">http://player.vimeo.com/external/20788904.sd.mp4?s=b33c92e34ab7160a08b1aa7fa1621c39</Button>
+    <Button Type="Vimeo">http://player.vimeo.com/external/13762457.sd.mp4?s=fb08555fdaef127c3d8a8f3f31ab107f</Button>
+    <Button Type="Vimeo">http://player.vimeo.com/external/20789031.sd.mp4?s=05638eb785d7d8355f957ae25de56bec</Button>
+    <Button Type="Vimeo">http://player.vimeo.com/external/20788792.sd.mp4?s=401fe74121781f78b78089311d755ed3</Button>
+    <Button Type="Vimeo">http://player.vimeo.com/external/20788295.sd.mp4?s=904b968b835d32abad549a0cfcc26a46</Button>
+    <Button Type="Vimeo">http://player.vimeo.com/external/20789049.sd.mp4?s=fb2d34b096cbb22379d4a2fa01b9d601</Button>
+    <Button Type="Vimeo">http://player.vimeo.com/external/20789062.sd.mp4?s=38510c3e663a99c076a245f0d661b11b</Button>
+    <Button Type="Vimeo">http://player.vimeo.com/external/20788318.sd.mp4?s=151f4998b3a4a579a49cececcd19b2dd</Button>
+    <Button Type="Vimeo">http://player.vimeo.com/external/20789001.sd.mp4?s=59bbf66bf0d7d19c6454caac13e4d48e</Button>
+    <Button Type="Vimeo">http://player.vimeo.com/external/20788424.sd.mp4?s=c1f0cebd36025683ec9f447b1281a262</Button>
+    <Button Type="Vimeo">http://player.vimeo.com/external/20788387.sd.mp4?s=f84bdb7b6995bf9d1b47e558b6f255dd</Button>
+    <Button Type="Vimeo">http://player.vimeo.com/external/20788904.sd.mp4?s=b33c92e34ab7160a08b1aa7fa1621c39</Button>
+    <Button Type="Vimeo">http://player.vimeo.com/external/20788338.sd.mp4?s=ca04c90f0135910cb6bb10b10df43b7f</Button>
+    <Button Type="Vimeo">http://player.vimeo.com/external/20789031.sd.mp4?s=05638eb785d7d8355f957ae25de56bec</Button>
+    <Button Type="Vimeo">http://player.vimeo.com/external/20788424.sd.mp4?s=c1f0cebd36025683ec9f447b1281a262</Button>
+    <Button Type="Vimeo">http://player.vimeo.com/external/16030049.sd.mp4?s=524c13e7e6a620b6adce4a04b9895074</Button>
+    <Button Type="Vimeo">http://player.vimeo.com/external/64871938.sd.mp4?s=5d4496e1e20ae0259199e7e1083424ec</Button>
+  </Buttons>
+</Support>
