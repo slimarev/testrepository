@@ -41,5 +41,27 @@ Copyright (C) Microsoft Corporation. All rights reserved.
       <Value>$(AssemblyVersion)</Value>
     </AssemblyAttributes>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Commons\Commons.csproj">
+      <Project>{4273A55F-5D52-413D-9028-2700BE82A2E1}</Project>
+      <Name>Commons</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DBCommons\DBCommons.csproj">
+      <Project>{819D0C27-36D6-4026-B8CF-46FB0CF2025E}</Project>
+      <Name>DBCommons</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Model\Model.csproj">
+      <Project>{4BB2A741-D154-4CBE-A230-12471759EB58}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ServiceCommons\ServiceCommons.csproj">
+      <Project>{ACA7B82F-3224-4418-8891-90CD4D818D61}</Project>
+      <Name>ServiceCommons</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WebCommons\WebCommons.csproj">
+      <Project>{15D208CC-8B01-43D1-B6D8-40BC3E5B60D9}</Project>
+      <Name>WebCommons</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(_WebPublishTargetsPath)\Web\Microsoft.WebSite.Publishing.targets" />
 </Project>

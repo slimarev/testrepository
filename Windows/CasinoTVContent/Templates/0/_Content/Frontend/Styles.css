@@ -122,7 +122,7 @@ textarea {
 }
 .menudivider {margin: 3px;margin-left: 10px;}
 ul.footermenu li:last-child span{display: none;}
-.main-form {position: relative;float: left; height: 100%;background: #f7f6f5; width: 100%;}
+.main-form {position: relative;float: left; height: 100%;background: #f7f6f5; width: 100%;padding-top: 10px;}
 body{color:#000;font-size:11px;font-family:Arial, Gadget, sans-serif;margin:0}
 
 .header_utente_container{height:50px;position:relative;z-index:1; float: left;}
@@ -242,8 +242,9 @@ body{
 
 /* NAV MENU */
 .fixedNav{
-	position:absolute;
-	width: 960px;
+	position: fixed;
+    z-index: 555;
+    width: 960px;
 	height:125px;
 	top: 0px;
 	text-align: left;
@@ -1356,6 +1357,7 @@ table.content td{text-align:left;font-size:12px}
     width: 150px;
     float: left;
     position: fixed;
+    padding-top: 10px;
 }
 .wx-ne-matrix-content-column {
     float: left;
@@ -1832,7 +1834,7 @@ ul {
 }
 #closeButton_Window {
 position: absolute;
-top: 0px;
+top: 15px;
 right: -40px;
 width: 40px;
 height: 40px;
@@ -1848,6 +1850,7 @@ border-bottom-right-radius: 5px;
 .frame-wrap {
     height: 100%;
     display: flex;
+    margin-left: 5px;
 }
 /*animation*/
 .animated {

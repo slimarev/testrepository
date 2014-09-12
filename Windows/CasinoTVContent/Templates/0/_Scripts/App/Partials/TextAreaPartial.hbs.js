@@ -9,8 +9,8 @@
         {{#if Description}}<label class="description-label" style="">{{compile Description.template Description.data}}</label>{{/if}}</div>\
         </div>\
         <script>\
-       if("{{Attributes.WYSIWYG}}"){;\
-    var editor = new TINY.editor.edit("editor", {\
+       if("{{Attributes.WYSIWYG}}"){\
+        $.editor = new TINY.editor.edit("editor", {\
         id: "{{ModelId}}-{{Id}}",\
         cssclass: "tinyeditor",\
         controlclass: "tinyeditor-control",\
@@ -23,7 +23,7 @@
         footer: true,\
         fonts: ["Verdana","Arial","Georgia","Trebuchet MS"],\
         xhtml: true,\
-        bodyid: "editor",\
+        bodyid: "editor-{{ModelId}}-{{Id}}",\
         footerclass: "tinyeditor-footer",\
         toggle: {text: "source", activetext: "wysiwyg", cssclass: "toggle"},\
         resize: {cssclass: "resize"}\

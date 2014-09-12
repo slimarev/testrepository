@@ -426,8 +426,7 @@
                                 data.Filters[i].Value = $("#" + data.Id + "-" + data.Filters[i].Id).val();
                             }
                         }
-                        context = data;
-                        context.Models = [data.Filters.length > 0 ? { Fields: data.Filters, Id: data.Id } : { Fields: [], Id: data.Id }];
+                        context = [data.Filters.length > 0 ? { Fields: data.Filters, Id: data.Id } : { Fields: [], Id: data.Id }];
                     } else if ($.action.Scope == 'Model' && data.Type == "Report") {
                         if ($.action.IsBulk) {
                             var checkedModels = [];
@@ -458,6 +457,13 @@
                                     } else if (data.Models[i].Fields[j].Type == 'Image') {
                                         data.Models[i].Fields[j].Value = $("#image-" + data.Models[i].Id + "-" + data.Models[i].Fields[j]['Id']).attr("imgUrl");
                                     } else if (data.Models[i].Fields[j].Type == 'Label') {
+                                    } else if (data.Models[i].Fields[j].Type == 'TextArea') {
+                                        if (!data.Models[i].Fields[j].Attributes.WYSIWYG) {
+                                            data.Models[i].Fields[j].Value = $("#" + data.Models[i].Id + "-" + data.Models[i].Fields[j].Id).val();
+                                        } else {
+                                            $.editor.post();
+                                            data.Models[i].Fields[j].Value = $.editor.t.value;
+                                        }
                                     } else {
                                         data.Models[i].Fields[j].Value = $("#" + data.Models[i].Id + "-" + data.Models[i].Fields[j].Id).val();
                                     }
@@ -552,8 +558,9 @@
                 $('#message').html(getByValue(templatesHbs, 'name', "MessageBox").template({ title: title, message: message }));
                 var timer = setTimeout(function () {
                     $('#message').html('');
-                }, 10000);
-                $('.modal__close').on('click', function () {
+                }, 100000);
+                $('#confirm-attention').focus();
+                $('#confirm-attention').on('click', function () {
                     clearTimeout(timer);
                     $('#message').html('');
                 });
@@ -659,7 +666,7 @@
                 function actionsFormatter(row, cell, value, columnDef, dataContext) {
                     var actionsHtml = "<div style='float: right;'>";
                     for (var j = 0; j < actions.length; j++) {
-                        actionsHtml += "<button  class='grid-action' value=" + dataContext.Id + " actionId="+models[0].Actions[j].Id+">" + models[0].Actions[j].Name + "</button>";
+                        actionsHtml += "<button  class='grid-action' value=" + dataContext.id + " actionId="+models[0].Actions[j].Id+">" + models[0].Actions[j].Name + "</button>";
                     }
                     actionsHtml += "</div>";
                     return actionsHtml;
@@ -677,8 +684,10 @@
                         });
                         $.each(report.Models, function (key, value) {
                             for (var j = 0; j < value.Fields.length; j++) {
-                                if (value.Fields[j].Value == event.target.value)
+                                if (value.LocalId == event.target.value) {
                                     model = value;
+                                }
+
                             }
                         });
                         model.Type = "Report";
@@ -702,7 +711,7 @@
                                 row[report.DefaultModel.Fields[j].Id] = models[i].Fields[j].Value;
                             }
                             if(models[i].Fields[j].Id=="Id")
-                                 id = models[i].Fields[j].Value;
+                                id = models[i].LocalId;
                         }
                         row['id'] = id?id:i;
                         data.push(row);
@@ -758,10 +767,9 @@
                     if (defaultAction) {
                         $.action = defaultAction;
                         $.each(report.Models, function (key, value) {
-                            for (var j = 0; j < value.Fields.length; j++) {
-                                if (value.Fields[j].Value == item.Id)
+                                if (value.LocalId == item.id) {
                                     model = value;
-                            }
+                                }
                         });
                         model.Type = "Report";
                         if ($.action.ConfirmationText) {

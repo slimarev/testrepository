@@ -247,7 +247,10 @@
     margin: 0 auto;
 }
 
-.form_title { text-align: center }
+.form_title {
+    text-align: center;
+    padding-top: 15px;
+}
 
 
 ul { list-style-type: none; }
@@ -417,18 +420,18 @@ a:visited, a:active, a:link, a:focus {
     border-radius: 5px;
     padding: 1em 2em;
     width: 300px;
-    height: 150px;
+    height: 180px;
     box-shadow: 0 4px 23px 5px rgba(0, 0, 0, 0.4).modal, 0 2px 6px rgba(0,0,0,0.15);
 }
 
 .modal__close {
     position: absolute;
-    right: 1em;
-    top: 1em;
-    width: 1.1em;
-    height: 1.1em;
+    right: 0.6em;
+    top: 0.6em;
+    width: 1.3em;
+    height: 1.3em;
     cursor: pointer;
-    z-index: 3333
+    z-index: 3333;
 }
 .image-wrap {
     position: relative;
@@ -1119,7 +1122,6 @@ input[readonly="readonly"]
     margin-top: 8%;
     background: #fff;
     border-radius: 5px;
-    padding: 30px 8px 5px 6px;
     z-index: 6666
 }
 
@@ -1129,7 +1131,7 @@ input[readonly="readonly"]
     height: 500px
 }
 .standart-popup {
-    width: 590px;
+    width: 640px;
 }
 .popup-body {
     overflow-y: auto;
@@ -1540,4 +1542,19 @@ input.editor-checkbox {
     background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
     background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
     background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+.draggable-popup {
+    border: 0;
+    height: 25px;
+    background: #e6e6e6 url(images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+	border: 0;
+    clear: both;
+    cursor: all-scroll;
+}
+.message-confirm {
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
 }
