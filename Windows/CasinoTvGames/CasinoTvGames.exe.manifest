@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="CasinoTvGames.exe" version="0.0.0.110" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="CasinoTvGames" version="0.0.9.1" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="CasinoTvGames" version="0.0.9.2" language="neutral" processorArchitecture="x86" />
     <commandLine file="CasinoTvGames.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,37 +43,37 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CasinoAPI.dll" size="155648">
-      <assemblyIdentity name="CasinoAPI" version="0.0.9.1" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="CasinoAPI" version="0.0.9.2" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>LqkNFd2+OGXKvisfvyz633S7vrU=</dsig:DigestValue>
+        <dsig:DigestValue>zqREPjbMFBIcFc0rzq75mbs1q0s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CasinoTvGames.exe" size="8703488">
-      <assemblyIdentity name="CasinoTvGames" version="0.0.9.1" language="neutral" processorArchitecture="x86" />
+      <assemblyIdentity name="CasinoTvGames" version="0.0.9.2" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>uj14P6855VjlpJMB4TPh30pJXOM=</dsig:DigestValue>
+        <dsig:DigestValue>ZDvkYLBg0mM8Y8mNRC0GiuGAkCs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Commons.dll" size="153088">
-      <assemblyIdentity name="Commons" version="0.0.9.1" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Commons" version="0.0.9.2" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>2ykehaEJvhJ0n+YIAnYYjihjoBc=</dsig:DigestValue>
+        <dsig:DigestValue>W26ywXKpQhkKVf6KjevxYrO3jY0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -91,13 +91,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WPFCommons.dll" size="388608">
-      <assemblyIdentity name="WPFCommons" version="0.0.9.1" language="neutral" processorArchitecture="x86" />
+      <assemblyIdentity name="WPFCommons" version="0.0.9.2" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>yzABPAClLNB6FXLM4Mo11fFwZ5E=</dsig:DigestValue>
+        <dsig:DigestValue>mAB7Q7GsPge8onn9pZyFblCE09k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
