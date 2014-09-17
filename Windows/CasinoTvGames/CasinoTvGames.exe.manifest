@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>D4sXMiZqDwtgeGmPm8fQIsGzW+k=</dsig:DigestValue>
+        <dsig:DigestValue>8LrD+Z6urClIEGeEQphNt34ytsc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -61,19 +61,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>/B2q/Z7+hwGQgmOAOQ4ata+cEns=</dsig:DigestValue>
+        <dsig:DigestValue>aYpPJuEla4wJ8qu1ULnlv7+I5wo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Commons.dll" size="153088">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Commons.dll" size="153600">
       <assemblyIdentity name="Commons" version="0.0.9.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Dx4Iy3KzUaH4A9BSh5GAHCuegLo=</dsig:DigestValue>
+        <dsig:DigestValue>70YfKcN1XfKAoEVOdaYfl5V1JP0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -97,7 +97,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>/Hx10WheExv4fo0fm1AH7kWrHxc=</dsig:DigestValue>
+        <dsig:DigestValue>ZdU+//jCjWqF8Ec04aLwtaSOWO8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
